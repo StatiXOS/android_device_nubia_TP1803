@@ -79,9 +79,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
-# VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 29
-
 # Wallpapers
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
