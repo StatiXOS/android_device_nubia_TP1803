@@ -1,8 +1,14 @@
 [  
    {
-      "repository": "nullbytepl/device_tadiphone-fw",
-      "target_path": "device/tadiphone-fw",
-      "branch": "ten",
-      "remote": "gitlab"
+      "repository": "StatiXOS/android_kernel_nubia_sm8150",
+      "target_path": "kernel/nubia/sm8150",
+      "branch": "11",
+      "remote": "github",
+   },
+   {
+      "repository": "StatiXOS/android_vendor_nubia_TP1803",
+      "target_path": "vendor/nubia/TP1803",
+      "branch": "11",
+      "remote": "github",
    }
 ]
