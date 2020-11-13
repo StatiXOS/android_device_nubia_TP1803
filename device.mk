@@ -33,6 +33,9 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     audio.a2dp.default
 
+# Blur
+TARGET_USES_BLUR := true
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
