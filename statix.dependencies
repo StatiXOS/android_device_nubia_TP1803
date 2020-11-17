@@ -10,5 +10,11 @@
       "target_path": "vendor/nubia/TP1803",
       "branch": "11",
       "remote": "github",
+   },
+   {
+      "repository": "StatiXOS/android_packages_apps_AuxiliaryKeyHandler",
+      "target_path": "packages/apps/AuxiliaryKeyHandler",
+      "branch": "11",
+      "remote": "github",
    }
 ]
