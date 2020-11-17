@@ -53,8 +53,17 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:system/etc/permissions/android.hardware.telephony.ims.xml
 
 # Input
+PRODUCT_PACKAGES += \
+    AuxiliaryKeyHandler
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl
+
+# Overlay
+PRODUCT_PACKAGES += \
+    TP1803AuxKeyHandler \
+    TP1803Frameworks \
+    TP1803Settings \
 
 # Net
 PRODUCT_PACKAGES += \
