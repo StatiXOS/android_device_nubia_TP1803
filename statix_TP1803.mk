@@ -3,12 +3,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
+# Inherit from TP1803 device
+$(call inherit-product, device/nubia/TP1803/device.mk)
+
 # Inherit some common StatiX stuff.
 $(call inherit-product, vendor/statix/config/common.mk)
 $(call inherit-product, vendor/statix/config/gsm.mk)
-
-# Inherit from TP1803 device
-$(call inherit-product, device/nubia/TP1803/device.mk)
 
 PRODUCT_BRAND := Nubia
 PRODUCT_DEVICE := TP1803
