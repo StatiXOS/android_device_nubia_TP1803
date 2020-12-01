@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/nubia/TP1803/TP1803-vendor.mk)
-
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -28,10 +25,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
-
-# Audio
-PRODUCT_PACKAGES += \
-    audio.a2dp.default
 
 # Blur
 TARGET_USES_BLUR := true
@@ -66,6 +59,14 @@ PRODUCT_COPY_FILES += \
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
+
+# QTI Components
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    gps \
+    telephony \
+    wfd
 
 # Recovery
 PRODUCT_COPY_FILES += \
