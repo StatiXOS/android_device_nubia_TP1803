@@ -3,12 +3,12 @@
       "repository": "StatiXOS/android_kernel_nubia_sm8150",
       "target_path": "kernel/nubia/sm8150",
       "branch": "11",
-      "remote": "github",
+      "remote": "github"
    },
    {
       "repository": "StatiXOS/android_packages_apps_AuxiliaryKeyHandler",
       "target_path": "packages/apps/AuxiliaryKeyHandler",
       "branch": "11",
-      "remote": "github",
+      "remote": "github"
    }
 ]
