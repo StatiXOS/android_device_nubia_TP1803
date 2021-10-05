@@ -51,14 +51,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
-# QTI Components
-TARGET_COMMON_QTI_COMPONENTS := \
-    av \
-    bt \
-    gps \
-    telephony \
-    wfd
-
 # Recovery
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.recovery.qcom.rc:recovery/root/init.recovery.qcom.rc
